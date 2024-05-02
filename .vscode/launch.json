@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/niu0217/niuGithub/Linux-5.4.10/usr",
+      "program": "/Users/niu0217/niuGithub/Linux-5.4.10/usr/build/Debug/outDebug"
+    }
+  ]
+}
