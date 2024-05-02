@@ -1,0 +1,293 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_SIZE	initramfs.c	567;"	d	file:
+CREATE_TRACE_POINTS	main.c	103;"	d	file:
+Collect	initramfs.c	/^	Collect,$/;"	e	enum:state	file:
+CopyFile	initramfs.c	/^	CopyFile,$/;"	e	enum:state	file:
+DEBUG	main.c	13;"	d	file:
+DELAY_CALIBRATION_TICKS	calibrate.c	32;"	d	file:
+GotHeader	initramfs.c	/^	GotHeader,$/;"	e	enum:state	file:
+GotName	initramfs.c	/^	GotName,$/;"	e	enum:state	file:
+GotSymlink	initramfs.c	/^	GotSymlink,$/;"	e	enum:state	file:
+LPS_PREC	calibrate.c	185;"	d	file:
+MAX_DIRECT_CALIBRATION_RETRIES	calibrate.c	33;"	d	file:
+MAX_INIT_ARGS	main.c	126;"	d	file:
+MAX_INIT_ENVS	main.c	127;"	d	file:
+NFSROOT_RETRY_MAX	do_mounts.c	468;"	d	file:
+NFSROOT_TIMEOUT_MAX	do_mounts.c	467;"	d	file:
+NFSROOT_TIMEOUT_MIN	do_mounts.c	466;"	d	file:
+N_ALIGN	initramfs.c	46;"	d	file:
+ROOT_DEV	do_mounts.c	/^dev_t ROOT_DEV;$/;"	v
+Reset	initramfs.c	/^	Reset$/;"	e	enum:state	file:
+SkipIt	initramfs.c	/^	SkipIt,$/;"	e	enum:state	file:
+Start	initramfs.c	/^	Start,$/;"	e	enum:state	file:
+__init_task_data	init_task.c	/^	__init_task_data$/;"	v	typeref:struct:init_task
+__init_thread_info	init_task.c	/^struct thread_info init_thread_info __init_thread_info = INIT_THREAD_INFO(init_task);$/;"	v	typeref:struct:init_thread_info
+__initdata	do_mounts_initrd.c	/^phys_addr_t phys_initrd_start __initdata;$/;"	v
+__initdata	do_mounts_initrd.c	/^unsigned long phys_initrd_size __initdata;$/;"	v
+__initdata	do_mounts_md.c	/^static int md_setup_ents __initdata;$/;"	v	file:
+__initdata	do_mounts_md.c	/^} md_setup_args[256] __initdata;$/;"	v	typeref:struct:__anon1	file:
+__initdata	initramfs.c	/^static long remains __initdata;$/;"	v	file:
+__initdata	initramfs.c	/^static unsigned long byte_count __initdata;$/;"	v	file:
+__initdata	main.c	/^static const char *initcall_level_names[] __initdata = {$/;"	v	file:
+__initdata	main.c	/^static initcall_entry_t *initcall_levels[] __initdata = {$/;"	v	file:
+__read_mostly	main.c	/^bool early_boot_irqs_disabled __read_mostly;$/;"	v
+__read_mostly	main.c	/^bool static_key_initialized __read_mostly;$/;"	v
+__read_mostly	main.c	/^enum system_states system_state __read_mostly;$/;"	v	typeref:enum:system_state
+__ro_after_init	main.c	/^bool rodata_enabled __ro_after_init = true;$/;"	v
+actions	initramfs.c	/^static __initdata int (*actions[])(void) = {$/;"	v	file:
+arch_call_rest_init	main.c	/^void __init __weak arch_call_rest_init(void)$/;"	f
+arch_post_acpi_subsys_init	main.c	/^void __init __weak arch_post_acpi_subsys_init(void) { }$/;"	f
+argv_init	main.c	/^static const char *argv_init[MAX_INIT_ARGS+2] = { "init", NULL, };$/;"	v	file:
+autodetect_raid	do_mounts_md.c	/^static void __init autodetect_raid(void)$/;"	f	file:
+blacklist_entry	main.c	/^struct blacklist_entry {$/;"	s	file:
+body_len	initramfs.c	/^static __initdata unsigned long body_len, name_len;$/;"	v	file:
+boot_command_line	main.c	/^char __initdata boot_command_line[COMMAND_LINE_SIZE];$/;"	v
+bstat	do_mounts.h	/^static inline u32 bstat(char *name)$/;"	f
+buf	main.c	/^	char *buf;$/;"	m	struct:blacklist_entry	file:
+calibrate_delay	calibrate.c	/^void calibrate_delay(void)$/;"	f
+calibrate_delay_converge	calibrate.c	/^static unsigned long calibrate_delay_converge(void)$/;"	f	file:
+calibrate_delay_direct	calibrate.c	/^static unsigned long calibrate_delay_direct(void)$/;"	f	file:
+calibrate_delay_is_known	calibrate.c	/^unsigned long __attribute__((weak)) calibrate_delay_is_known(void)$/;"	f
+calibration_delay_done	calibrate.c	/^void __attribute__((weak)) calibration_delay_done(void)$/;"	f
+ccflags-y	Makefile	/^ccflags-y := -fno-function-sections -fno-data-sections$/;"	m
+change_floppy	do_mounts.c	/^void __init change_floppy(char *fmt, ...)$/;"	f
+chk_compile.h	Makefile	/^       chk_compile.h = :$/;"	m
+chunk	do_mounts_md.c	/^	int chunk;$/;"	m	struct:__anon1	file:
+clean_path	initramfs.c	/^static void __init clean_path(char *path, umode_t fmode)$/;"	f	file:
+clean_rootfs	initramfs.c	/^static inline void clean_rootfs(void)$/;"	f	file:
+clean_rootfs	initramfs.c	/^static void __init clean_rootfs(void)$/;"	f	file:
+collect	initramfs.c	/^static __initdata char *collect;$/;"	v	file:
+collected	initramfs.c	/^static __initdata char *collected;$/;"	v	file:
+compr_fill	do_mounts_rd.c	/^static long __init compr_fill(void *buf, unsigned long len)$/;"	f	file:
+compr_flush	do_mounts_rd.c	/^static long __init compr_flush(void *window, unsigned long outcnt)$/;"	f	file:
+crd_infd	do_mounts_rd.c	/^static int crd_infd, crd_outfd;$/;"	v	file:
+crd_load	do_mounts_rd.c	/^static int __init crd_load(int in_fd, int out_fd, decompress_fn deco)$/;"	f	file:
+crd_outfd	do_mounts_rd.c	/^static int crd_infd, crd_outfd;$/;"	v	file:
+create_dev	do_mounts.h	/^static inline int create_dev(char *name, dev_t dev)$/;"	f
+debug_kernel	main.c	/^static int __init debug_kernel(char *str)$/;"	f	file:
+decompress_error	do_mounts_rd.c	/^static int decompress_error;$/;"	v	file:
+default_rootfs	noinitramfs.c	/^rootfs_initcall(default_rootfs);$/;"	v
+default_rootfs	noinitramfs.c	/^static int __init default_rootfs(void)$/;"	f	file:
+device_names	do_mounts_md.c	/^	char *device_names;$/;"	m	struct:__anon1	file:
+devt_from_partuuid	do_mounts.c	/^static dev_t devt_from_partuuid(const char *uuid_str)$/;"	f	file:
+dir_add	initramfs.c	/^static void __init dir_add(const char *name, time64_t mtime)$/;"	f	file:
+dir_entry	initramfs.c	/^struct dir_entry {$/;"	s	file:
+dir_utime	initramfs.c	/^static void __init dir_utime(void)$/;"	f	file:
+do_basic_setup	main.c	/^static void __init do_basic_setup(void)$/;"	f	file:
+do_collect	initramfs.c	/^static int __init do_collect(void)$/;"	f	file:
+do_copy	initramfs.c	/^static int __init do_copy(void)$/;"	f	file:
+do_ctors	main.c	/^static void __init do_ctors(void)$/;"	f	file:
+do_early_param	main.c	/^static int __init do_early_param(char *param, char *val,$/;"	f	file:
+do_header	initramfs.c	/^static int __init do_header(void)$/;"	f	file:
+do_initcall_level	main.c	/^static void __init do_initcall_level(int level)$/;"	f	file:
+do_initcalls	main.c	/^static void __init do_initcalls(void)$/;"	f	file:
+do_mount_root	do_mounts.c	/^static int __init do_mount_root(char *name, char *fs, int flags, void *data)$/;"	f	file:
+do_name	initramfs.c	/^static int __init do_name(void)$/;"	f	file:
+do_one_initcall	main.c	/^int __init_or_module do_one_initcall(initcall_t fn)$/;"	f
+do_pre_smp_initcalls	main.c	/^static void __init do_pre_smp_initcalls(void)$/;"	f	file:
+do_reset	initramfs.c	/^static int __init do_reset(void)$/;"	f	file:
+do_retain_initrd	initramfs.c	/^static int __initdata do_retain_initrd;$/;"	v	file:
+do_skip	initramfs.c	/^static int __init do_skip(void)$/;"	f	file:
+do_start	initramfs.c	/^static int __init do_start(void)$/;"	f	file:
+do_symlink	initramfs.c	/^static int __init do_symlink(void)$/;"	f	file:
+do_trace_initcall_finish	main.c	/^static inline void do_trace_initcall_finish(initcall_t fn, int ret)$/;"	f	file:
+do_trace_initcall_finish	main.c	912;"	d	file:
+do_trace_initcall_start	main.c	/^static inline void do_trace_initcall_start(initcall_t fn)$/;"	f	file:
+do_trace_initcall_start	main.c	911;"	d	file:
+do_utime	initramfs.c	/^static long __init do_utime(char *filename, time64_t mtime)$/;"	f	file:
+early_initrd	do_mounts_initrd.c	/^static int __init early_initrd(char *p)$/;"	f	file:
+eat	initramfs.c	/^static inline void __init eat(unsigned n)$/;"	f	file:
+envp_init	main.c	/^const char *envp_init[MAX_INIT_ENVS+2] = { "HOME=\/", "TERM=linux", NULL, };$/;"	v
+error	do_mounts_rd.c	/^static void __init error(char *x)$/;"	f	file:
+error	initramfs.c	/^static void __init error(char *x)$/;"	f	file:
+execute_command	main.c	/^static char *execute_command;$/;"	v	file:
+exit_code	do_mounts_rd.c	/^static int exit_code;$/;"	v	file:
+find_link	initramfs.c	/^static char __init *find_link(int major, int minor, int ino,$/;"	f	file:
+flush_buffer	initramfs.c	/^static long __init flush_buffer(void *bufv, unsigned long len)$/;"	f	file:
+free_hash	initramfs.c	/^static void __init free_hash(void)$/;"	f	file:
+free_initmem	main.c	/^void __weak free_initmem(void)$/;"	f
+free_initrd_mem	initramfs.c	/^void __weak free_initrd_mem(unsigned long start, unsigned long end)$/;"	f
+fs_names_setup	do_mounts.c	/^static int __init fs_names_setup(char *str)$/;"	f	file:
+get_fs_names	do_mounts.c	/^static void __init get_fs_names(char *page)$/;"	f	file:
+gid	initramfs.c	/^static __initdata gid_t gid;$/;"	v	file:
+handle_initrd	do_mounts_initrd.c	/^static void __init handle_initrd(void)$/;"	f	file:
+hash	initramfs.c	/^static __initdata struct hash {$/;"	s	file:
+hash	initramfs.c	/^static inline int hash(int major, int minor, int ino)$/;"	f	file:
+head	initramfs.c	/^} *head[32];$/;"	v	typeref:struct:hash	file:
+header_buf	initramfs.c	/^static __initdata char *header_buf, *symlink_buf, *name_buf;$/;"	v	file:
+identify_ramdisk_image	do_mounts_rd.c	/^identify_ramdisk_image(int fd, int start_block, decompress_fn *decompressor)$/;"	f	file:
+init_linuxrc	do_mounts_initrd.c	/^static int init_linuxrc(struct subprocess_info *info, struct cred *new)$/;"	f	file:
+init_rootfs	do_mounts.c	/^void __init init_rootfs(void)$/;"	f
+init_setup	main.c	/^static int __init init_setup(char *str)$/;"	f	file:
+init_sighand	init_task.c	/^static struct sighand_struct init_sighand = {$/;"	v	typeref:struct:sighand_struct	file:
+init_signals	init_task.c	/^static struct signal_struct init_signals = {$/;"	v	typeref:struct:signal_struct	file:
+init_task	init_task.c	/^EXPORT_SYMBOL(init_task);$/;"	v
+init_uts_ns	version.c	/^EXPORT_SYMBOL_GPL(init_uts_ns);$/;"	v
+init_uts_ns	version.c	/^struct uts_namespace init_uts_ns = {$/;"	v	typeref:struct:uts_namespace
+initcall_blacklist	main.c	/^static int __init initcall_blacklist(char *str)$/;"	f	file:
+initcall_blacklisted	main.c	/^static bool __init_or_module initcall_blacklisted(initcall_t fn)$/;"	f	file:
+initcall_calltime	main.c	/^static ktime_t initcall_calltime;$/;"	v	file:
+initcall_command_line	main.c	/^static char *initcall_command_line;$/;"	v	file:
+initcall_debug	main.c	/^bool initcall_debug;$/;"	v
+initcall_debug_enable	main.c	/^static inline void initcall_debug_enable(void)$/;"	f	file:
+initcall_debug_enable	main.c	/^static void __init initcall_debug_enable(void)$/;"	f	file:
+initrd_below_start_ok	do_mounts_initrd.c	/^int initrd_below_start_ok;$/;"	v
+initrd_end	do_mounts_initrd.c	/^unsigned long initrd_start, initrd_end;$/;"	v
+initrd_load	do_mounts.h	/^static inline bool initrd_load(void) { return false; }$/;"	f
+initrd_load	do_mounts_initrd.c	/^bool __init initrd_load(void)$/;"	f
+initrd_start	do_mounts_initrd.c	/^unsigned long initrd_start, initrd_end;$/;"	v
+ino	initramfs.c	/^	int ino, minor, major;$/;"	m	struct:hash	file:
+ino	initramfs.c	/^static __initdata unsigned long ino, major, minor, nlink;$/;"	v	file:
+is_tmpfs	do_mounts.c	/^static bool is_tmpfs;$/;"	v	file:
+keepinitrd_setup	initramfs.c	/^static int __init keepinitrd_setup(char *__unused)$/;"	f	file:
+kernel_init	main.c	/^static int __ref kernel_init(void *unused)$/;"	f	file:
+kernel_init_freeable	main.c	/^static noinline void __init kernel_init_freeable(void)$/;"	f	file:
+kexec_free_initrd	initramfs.c	/^static bool kexec_free_initrd(void)$/;"	f	file:
+kexec_free_initrd	initramfs.c	/^static inline bool kexec_free_initrd(void)$/;"	f	file:
+late_time_init	main.c	/^void (*__initdata late_time_init)(void);$/;"	v
+len	do_mounts.c	/^	int len;$/;"	m	struct:uuidcmp	file:
+level	do_mounts_md.c	/^	int level;$/;"	m	struct:__anon1	file:
+linux_banner	version.c	/^const char linux_banner[] =$/;"	v
+linux_proc_banner	version.c	/^const char linux_proc_banner[] =$/;"	v
+list	initramfs.c	/^	struct list_head list;$/;"	m	struct:dir_entry	typeref:struct:dir_entry::list_head	file:
+load_ramdisk	do_mounts.c	/^static int __init load_ramdisk(char *str)$/;"	f	file:
+loglevel	main.c	/^static int __init loglevel(char *str)$/;"	f	file:
+loops_per_jiffy	main.c	/^EXPORT_SYMBOL(loops_per_jiffy);$/;"	v
+loops_per_jiffy	main.c	/^unsigned long loops_per_jiffy = (1<<12);$/;"	v
+lpj_fine	calibrate.c	/^unsigned long lpj_fine;$/;"	v
+lpj_setup	calibrate.c	/^static int __init lpj_setup(char *str)$/;"	f	file:
+major	initramfs.c	/^	int ino, minor, major;$/;"	m	struct:hash	file:
+major	initramfs.c	/^static __initdata unsigned long ino, major, minor, nlink;$/;"	v	file:
+mark_readonly	main.c	/^static inline void mark_readonly(void)$/;"	f	file:
+mark_readonly	main.c	/^static void mark_readonly(void)$/;"	f	file:
+match_dev_by_label	do_mounts.c	/^static int match_dev_by_label(struct device *dev, const void *data)$/;"	f	file:
+match_dev_by_uuid	do_mounts.c	/^static int match_dev_by_uuid(struct device *dev, const void *data)$/;"	f	file:
+maybe_link	initramfs.c	/^static int __init maybe_link(void)$/;"	f	file:
+md_run_setup	do_mounts.h	/^static inline void md_run_setup(void) {}$/;"	f
+md_run_setup	do_mounts_md.c	/^void __init md_run_setup(void)$/;"	f
+md_setup	do_mounts_md.c	/^static int __init md_setup(char *str)$/;"	f	file:
+md_setup_drive	do_mounts_md.c	/^static void __init md_setup_drive(void)$/;"	f	file:
+mem_encrypt_init	main.c	/^void __init __weak mem_encrypt_init(void) { }$/;"	f
+message	initramfs.c	/^static __initdata char *message;$/;"	v	file:
+minor	do_mounts_md.c	/^	int minor;$/;"	m	struct:__anon1	file:
+minor	initramfs.c	/^	int ino, minor, major;$/;"	m	struct:hash	file:
+minor	initramfs.c	/^static __initdata unsigned long ino, major, minor, nlink;$/;"	v	file:
+mm_init	main.c	/^static void __init mm_init(void)$/;"	f	file:
+mode	initramfs.c	/^	umode_t mode;$/;"	m	struct:hash	file:
+mode	initramfs.c	/^static __initdata umode_t mode;$/;"	v	file:
+mount_block_root	do_mounts.c	/^void __init mount_block_root(char *name, int flags)$/;"	f
+mount_initrd	do_mounts_initrd.c	/^static int __initdata mount_initrd = 1;$/;"	v	file:
+mount_nfs_root	do_mounts.c	/^static int __init mount_nfs_root(void)$/;"	f	file:
+mount_root	do_mounts.c	/^void __init mount_root(void)$/;"	f
+mounts-y	Makefile	/^mounts-y			:= do_mounts.o$/;"	m
+mtime	initramfs.c	/^	time64_t mtime;$/;"	m	struct:dir_entry	file:
+mtime	initramfs.c	/^static __initdata time64_t mtime;$/;"	v	file:
+my_inptr	initramfs.c	/^static unsigned long my_inptr; \/* index of next byte to be processed in inbuf *\/$/;"	v	file:
+name	initramfs.c	/^	char *name;$/;"	m	struct:dir_entry	file:
+name	initramfs.c	/^	char name[N_ALIGN(PATH_MAX)];$/;"	m	struct:hash	file:
+name_buf	initramfs.c	/^static __initdata char *header_buf, *symlink_buf, *name_buf;$/;"	v	file:
+name_len	initramfs.c	/^static __initdata unsigned long body_len, name_len;$/;"	v	file:
+name_to_dev_t	do_mounts.c	/^EXPORT_SYMBOL_GPL(name_to_dev_t);$/;"	v
+name_to_dev_t	do_mounts.c	/^dev_t name_to_dev_t(const char *name)$/;"	f
+next	initramfs.c	/^	struct hash *next;$/;"	m	struct:hash	typeref:struct:hash::hash	file:
+next	main.c	/^	struct list_head next;$/;"	m	struct:blacklist_entry	typeref:struct:blacklist_entry::list_head	file:
+next_header	initramfs.c	/^static __initdata loff_t this_header, next_header;$/;"	v	file:
+next_state	initramfs.c	/^} state, next_state;$/;"	v	typeref:enum:state	file:
+nlink	initramfs.c	/^static __initdata unsigned long ino, major, minor, nlink;$/;"	v	file:
+no_initrd	do_mounts_initrd.c	/^static int __init no_initrd(char *str)$/;"	f	file:
+obj-y	Makefile	/^obj-y                          := main.o version.o mounts.o$/;"	m
+obsolete_checksetup	main.c	/^static bool __init obsolete_checksetup(char *line)$/;"	f	file:
+panic_later	main.c	/^static const char *panic_later, *panic_param;$/;"	v	file:
+panic_param	main.c	/^static const char *panic_later, *panic_param;$/;"	v	file:
+parse_early_options	main.c	/^void __init parse_early_options(char *cmdline)$/;"	f
+parse_early_param	main.c	/^void __init parse_early_param(void)$/;"	f
+parse_header	initramfs.c	/^static void __init parse_header(char *s)$/;"	f	file:
+partitioned	do_mounts_md.c	/^	int partitioned;$/;"	m	struct:__anon1	file:
+pgtable_cache_init	main.c	/^void __init __weak pgtable_cache_init(void) { }$/;"	f
+poking_init	main.c	/^void __init __weak poking_init(void) { }$/;"	f
+populate_initrd_image	initramfs.c	/^static void __init populate_initrd_image(char *err)$/;"	f	file:
+populate_rootfs	initramfs.c	/^rootfs_initcall(populate_rootfs);$/;"	v
+populate_rootfs	initramfs.c	/^static int __init populate_rootfs(void)$/;"	f	file:
+prepare_namespace	do_mounts.c	/^void __init prepare_namespace(void)$/;"	f
+preset_lpj	calibrate.c	/^unsigned long preset_lpj;$/;"	v
+prompt_ramdisk	do_mounts_rd.c	/^static int __init prompt_ramdisk(char *str)$/;"	f	file:
+quiet_chk_compile.h	Makefile	/^ quiet_chk_compile.h = echo '  CHK     $@'$/;"	m
+quiet_kernel	main.c	/^static int __init quiet_kernel(char *str)$/;"	f	file:
+raid_autopart	do_mounts_md.c	/^static int __initdata raid_autopart;$/;"	v	file:
+raid_noautodetect	do_mounts_md.c	/^static int __initdata raid_noautodetect;$/;"	v	file:
+raid_noautodetect	do_mounts_md.c	/^static int __initdata raid_noautodetect=1;$/;"	v	file:
+raid_setup	do_mounts_md.c	/^static int __init raid_setup(char *str)$/;"	f	file:
+ramdisk_execute_command	main.c	/^static char *ramdisk_execute_command;$/;"	v	file:
+ramdisk_start_setup	do_mounts_rd.c	/^static int __init ramdisk_start_setup(char *str)$/;"	f	file:
+rd_doload	do_mounts.c	/^int __initdata rd_doload;	\/* 1 = load RAM disk, 0 = don't load *\/$/;"	v
+rd_image_start	do_mounts_rd.c	/^int __initdata rd_image_start;		\/* starting block # of image *\/$/;"	v
+rd_load_disk	do_mounts.h	/^static inline int rd_load_disk(int n) { return 0; }$/;"	f
+rd_load_disk	do_mounts_rd.c	/^int __init rd_load_disk(int n)$/;"	f
+rd_load_image	do_mounts.h	/^static inline int rd_load_image(char *from) { return 0; }$/;"	f
+rd_load_image	do_mounts_rd.c	/^int __init rd_load_image(char *from)$/;"	f
+rd_prompt	do_mounts_rd.c	/^int __initdata rd_prompt = 1;\/* 1 = prompt for RAM disk, 0 = don't prompt *\/$/;"	v
+rdev	initramfs.c	/^static __initdata unsigned rdev;$/;"	v	file:
+rdinit_setup	main.c	/^static int __init rdinit_setup(char *str)$/;"	f	file:
+read_into	initramfs.c	/^static void __init read_into(char *buf, unsigned size, enum state next)$/;"	f	file:
+readonly	do_mounts.c	/^static int __init readonly(char *str)$/;"	f	file:
+readwrite	do_mounts.c	/^static int __init readwrite(char *str)$/;"	f	file:
+real_root_dev	do_mounts_initrd.c	/^unsigned int real_root_dev;	\/* do_proc_dointvec cannot handle kdev_t *\/$/;"	v
+repair_env_string	main.c	/^static int __init repair_env_string(char *param, char *val,$/;"	f	file:
+report_meminit	main.c	/^static void __init report_meminit(void)$/;"	f	file:
+reset_devices	main.c	/^EXPORT_SYMBOL(reset_devices);$/;"	v
+reset_devices	main.c	/^unsigned int reset_devices;$/;"	v
+rest_init	main.c	/^noinline void __ref rest_init(void)$/;"	f
+retain_initrd_param	initramfs.c	/^static int __init retain_initrd_param(char *str)$/;"	f	file:
+root_data_setup	do_mounts.c	/^static int __init root_data_setup(char *str)$/;"	f	file:
+root_delay	do_mounts.c	/^static unsigned int __initdata root_delay;$/;"	v	file:
+root_delay_setup	do_mounts.c	/^static int __init root_delay_setup(char *str)$/;"	f	file:
+root_dev_setup	do_mounts.c	/^static int __init root_dev_setup(char *line)$/;"	f	file:
+root_device_name	do_mounts.c	/^static char * __initdata root_device_name;$/;"	v	file:
+root_fs_names	do_mounts.c	/^static char * __initdata root_fs_names;$/;"	v	file:
+root_mount_data	do_mounts.c	/^static char * __initdata root_mount_data;$/;"	v	file:
+root_mountflags	do_mounts.c	/^int root_mountflags = MS_RDONLY | MS_SILENT;$/;"	v
+root_wait	do_mounts.c	/^static int root_wait;$/;"	v	file:
+rootfs_fs_type	do_mounts.c	/^struct file_system_type rootfs_fs_type = {$/;"	v	typeref:struct:file_system_type
+rootfs_init_fs_context	do_mounts.c	/^static int rootfs_init_fs_context(struct fs_context *fc)$/;"	f	file:
+rootwait_setup	do_mounts.c	/^static int __init rootwait_setup(char *str)$/;"	f	file:
+run_init_process	main.c	/^static int run_init_process(const char *init_filename)$/;"	f	file:
+saved_command_line	main.c	/^char *saved_command_line;$/;"	v
+saved_root_name	do_mounts.c	/^static char __initdata saved_root_name[64];$/;"	v	file:
+set_debug_rodata	main.c	/^static int __init set_debug_rodata(char *str)$/;"	f	file:
+set_init_arg	main.c	/^static int __init set_init_arg(char *param, char *val,$/;"	f	file:
+set_reset_devices	main.c	/^static int __init set_reset_devices(char *str)$/;"	f	file:
+setup_command_line	main.c	/^static void __init setup_command_line(char *command_line)$/;"	f	file:
+setup_max_cpus	main.c	/^static const unsigned int setup_max_cpus = NR_CPUS;$/;"	v	file:
+setup_nr_cpu_ids	main.c	/^static inline void setup_nr_cpu_ids(void) { }$/;"	f	file:
+silent_chk_compile.h	Makefile	/^silent_chk_compile.h = :$/;"	m
+smp_prepare_cpus	main.c	/^static inline void smp_prepare_cpus(unsigned int maxcpus) { }$/;"	f	file:
+smp_setup_processor_id	main.c	/^void __init __weak smp_setup_processor_id(void)$/;"	f
+start_kernel	main.c	/^asmlinkage __visible void __init start_kernel(void)$/;"	f
+state	initramfs.c	/^static __initdata enum state {$/;"	g	file:
+state	initramfs.c	/^} state, next_state;$/;"	v	typeref:enum:state	file:
+static_command_line	main.c	/^static char *static_command_line;$/;"	v	file:
+static_key_initialized	main.c	/^EXPORT_SYMBOL_GPL(static_key_initialized);$/;"	v
+symlink_buf	initramfs.c	/^static __initdata char *header_buf, *symlink_buf, *name_buf;$/;"	v	file:
+system_state	main.c	/^EXPORT_SYMBOL(system_state);$/;"	v
+this_header	initramfs.c	/^static __initdata loff_t this_header, next_header;$/;"	v	file:
+thread_stack_cache_init	main.c	/^void __init __weak thread_stack_cache_init(void)$/;"	f
+trace_initcall_finish_cb	main.c	/^trace_initcall_finish_cb(void *data, initcall_t fn, int ret)$/;"	f	file:
+trace_initcall_start_cb	main.c	/^trace_initcall_start_cb(void *data, initcall_t fn)$/;"	f	file:
+try_to_run_init_process	main.c	/^static int try_to_run_init_process(const char *init_filename)$/;"	f	file:
+uid	initramfs.c	/^static __initdata uid_t uid;$/;"	v	file:
+unknown_bootoption	main.c	/^static int __init unknown_bootoption(char *param, char *val,$/;"	f	file:
+unpack_to_rootfs	initramfs.c	/^static char * __init unpack_to_rootfs(char *buf, unsigned long len)$/;"	f	file:
+uuid	do_mounts.c	/^	const char *uuid;$/;"	m	struct:uuidcmp	file:
+uuidcmp	do_mounts.c	/^struct uuidcmp {$/;"	s	file:
+vcollected	initramfs.c	/^static __initdata char *vcollected;$/;"	v	file:
+version	version.c	20;"	d	file:
+version_string	version.c	21;"	d	file:
+victim	initramfs.c	/^static __initdata char *victim;$/;"	v	file:
+wfd	initramfs.c	/^static __initdata int wfd;$/;"	v	file:
+write_buffer	initramfs.c	/^static long __init write_buffer(char *buf, unsigned long len)$/;"	f	file:
+xwrite	initramfs.c	/^static ssize_t __init xwrite(int fd, const char *p, size_t count)$/;"	f	file:
